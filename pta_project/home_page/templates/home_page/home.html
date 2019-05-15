@@ -1,0 +1,118 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consultoria Financeira</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static 'Assets/hand (1).png'%}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="inicio">
+            <div class="logo">
+                <img src="{% static 'Assets/hand (1).png'%}" alt="Maozinha com dinheiro" width="70px" height="70px">
+                <div class="empresa">
+                    <p><span class="span_block">Consultoria</span> <span class="span_block">Financeira</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul class="lista">
+                <li>
+                    <p>Início</p>
+                </li>
+                <li>
+                    <p>Etapas</p>
+                </li>
+                <li>
+                    <p>Footer</p>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div name="Banner" class="banner">
+            <div class="bannerfoto">
+                <img src="{% static 'Assets/Intersection 1.png'%}" alt="acordo">
+            </div>
+            <div class="otimize">
+                <p>Otimize agora o seu <span class="span_color">Dinheiro.</span></p>
+            </div>
+            <div class="info">
+                <p><span class="span_block">A Consultoria Financeira é uma empresa que lhe mostrará o </span>
+                    <span class="span_block">caminho e te aulixiará para impulsionar os resultados do seu</span>
+                    <span class="span_block">investimento</span>
+                </p>
+            </div>
+            <div id="callout">
+                <p>Pedir diagnostico</p>
+            </div>
+        </div>
+
+        <div name="Cards" class="cards">
+            <div class="titulo">
+                <p><span class="span_block"><span class="span_color2" style="font-weight:700">Etapas</span> de uma</span><span class="span_block">consultoria</span></p>
+                <div id="linha_roxa"></div>
+            </div>
+            <div class="card-box" id="adjust-box">
+                <div class="etapas">
+                    <div class="etapa-text">
+                        <p class="big-number">01.</p>
+                        <p class="overlay-text">Diagnóstico</p>
+                        <p class="explicacao">O primeiro passo é solicitar um diagnóstico aqui no nosso site, assim conheceremos o necessário sobre seu negócio e poderemos te ajudar.</p>
+                    </div>
+                </div>
+                <div class="etapas">
+                    <div class="etapa-text">
+                        <p class="big-number">02.</p>
+                        <p class="overlay-text">Determinação dos Focos</p>
+                        <p class="explicacao">Após o diagnóstico, iremos te auxiliar na seleção dos focos onde você deve atuar para atingir melhores resultados.</p>
+                    </div>
+                </div>
+                <div class="etapas">
+                    <div class="etapa-text">
+                        <p class="big-number">03.</p>
+                        <p class="overlay-text">Planejamento</p>
+                        <p class="explicacao">Nesta fase nós iremos planejar as medidas corretivas. Medidas estas que atuarão em cima dos focos definidos na fase anterior.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © 2019 Consultoria Financeira.</p>
+            </div>
+
+            <div>
+                <ul class="footer-lista">
+                    <li>
+                        <div class="logo">
+                            <img src="{% static 'Assets/path 225.png'%}" alt="Facebook">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="logo">
+                            <img src="{% static 'Assets/path 224.png'%}" alt="LinkedIn" >
+                        </div>
+                    </li>
+                    <li>
+                        <div class="logo">
+                            <img src="{% static 'Assets/group 315.png'%}" alt="Instagram">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
