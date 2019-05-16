@@ -1,10 +1,10 @@
 import os
 # import dj_database_url 
-from decouple import config
+#from decouple import config
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'lnf^l$!!!$@gaub24o_wck6uzcwmki9$vj=bp)8t!c5ad--x5o'
 
 ALLOWED_HOSTS = []
 
