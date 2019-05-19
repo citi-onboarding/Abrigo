@@ -32,25 +32,6 @@ class Doacao(models.Model):
 		verbose_name_plural = 'Pontos de arrecadação'
 		verbose_name = 'Ponto de arrecadação'
 
-#Model Eventos
-class Eventos(models.Model):
-	foto = models.ImageField(upload_to="evento_image/")
-	local = models.TextField(null=False, blank=False)
-	dia = models.CharField(max_length=50, null=True, blank=True)
-	horario = models.IntegerField(null=True, blank=True)
-	infoEvento = models.TextField(null=False, blank=False)
-	infoAnimais = models.TextField(null=False, blank=False)
-
-	def __str__(self):
-		return self.local
-
-	class Meta:
-		verbose_name_plural = 'Eventos'
-		verbose_name = 'Evento'
-
-#Model Eventos
-
-
 #Model Picpay
 
 class Picpay(models.Model):
@@ -73,4 +54,19 @@ class Apoia(models.Model):
 
     class Meta:
         verbose_name_plural = 'Apoia-se'
+#Model Eventos
+class Eventos(models.Model):
+	foto = models.ImageField(upload_to="evento_image/")
+	local = models.TextField(null=False, blank=False)
+	dia = models.CharField(max_length=50, null=True, blank=True)
+	horario = models.IntegerField(null=True, blank=True)
+	infoEvento = models.TextField(null=False, blank=False)
+	infoAnimais = models.TextField(null=False, blank=False)
+
+	def __str__(self):
+		return self.local
+
+	class Meta:
+		verbose_name_plural = 'Eventos'
+		verbose_name = 'Evento'
 
