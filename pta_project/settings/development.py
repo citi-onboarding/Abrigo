@@ -7,9 +7,9 @@ DEBUG = True
 
 # DATABASES['default'].update(default_db)
 
-INSTALLED_APPS += []
+#INSTALLED_APPS += []
 
-MIDDLEWARE += []
+#MIDDLEWARE += []
 
 
 
