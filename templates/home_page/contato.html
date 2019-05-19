@@ -1,7 +1,8 @@
 {% load static %} 
 <section class="secao-contato">
     <h1 id="titulo-contato"> Contato</h1>
-    <form id="form-contato">
+    <form id="form-contato" method='POST' action="/">
+    {% csrf_token %}
         <div id="id-contato">
             <label for="nome">Nome</label>
             <input id="nome" type="text" name="nome-contato">
