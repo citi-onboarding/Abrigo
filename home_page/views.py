@@ -1,7 +1,30 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
+from django.views import generic
+from django.urls import reverse_lazy
+from templated_email import send_templated_mail
 
 # Create your views here.
 
-def home(request):
-    return render(request, 'home_page/home.html')
+class HomeView(generic.TemplateView):
+	template_name = 'base.html'
+
+	def post(self, request, *args, **kwargs):
+		nome = request.POST.get('nome-contato')
+		telefone = request.POST.get('telefone-contato')
+		email = request.POST.get('email-contato')
+		assunto = request.POST.get('assunto-contato')
+		mensagem = request.POST.get('mensagem-contato')
+		send_templated_mail(
+			template_name='contact',
+			from_email = email,
+			recipient_list=['noreply.abrigodoseualberto@gmail.com'],
+			context={
+				'nome': nome,
+				'telefone': telefone,
+				'email': email,
+				'assunto': assunto,
+				'mensagem': mensagem,
+			 },
+		)
+		return HttpResponseRedirect(reverse_lazy("home_page:Home-Page"))
