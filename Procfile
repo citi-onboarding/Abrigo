@@ -1,1 +1,0 @@
-web: gunicorn pta_project.wsgi
