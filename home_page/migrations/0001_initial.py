@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('conta_bancaria', models.IntegerField(null=True)),
                 ('numero_agencia', models.IntegerField(null=True)),
                 ('nome_titular', models.CharField(max_length=100, null=True)),
-                ('codigo_banco', models.IntegerField(max_length=5, null=True)),
+                ('codigo_banco', models.IntegerField(null=True)),
                 ('cpf', models.IntegerField(null=True)),
             ],
             options={

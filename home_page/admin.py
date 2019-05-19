@@ -4,5 +4,6 @@ from .models import *
 admin.site.register(Contas)
 admin.site.register(Doacao)
 admin.site.register(Eventos)
-
+admin.site.register(Picpay)
+admin.site.register(Apoia)
 

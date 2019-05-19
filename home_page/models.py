@@ -48,3 +48,29 @@ class Eventos(models.Model):
 		verbose_name_plural = 'Eventos'
 		verbose_name = 'Evento'
 
+#Model Eventos
+
+
+#Model Picpay
+
+class Picpay(models.Model):
+    usuario = models.CharField(max_length=50, blank=False, null=True)
+
+    def __str__(self):
+        return  self.usuario
+
+    class Meta:
+        verbose_name = 'Usuário'
+        verbose_name_plural = 'Usuários'
+
+#Model Apoia-se
+
+class Apoia(models.Model):
+    link = models.CharField(max_length=400,blank=False, null=True)    
+
+    def __str__(self):
+        return self.link
+
+    class Meta:
+        verbose_name_plural = 'Apoia-se'
+
