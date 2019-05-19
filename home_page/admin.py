@@ -5,4 +5,6 @@ admin.site.register(Contas)
 admin.site.register(Doacao)
 admin.site.register(Picpay)
 admin.site.register(Apoia)
+admin.site.register(Eventos)
+
 
