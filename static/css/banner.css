@@ -6,11 +6,12 @@
     src: url('../samantha_4/SamanthaForPersonalUse.ttf');
 }
 #img-banner{
-    height: 680px;
+    height: 102vh;
     width: 100%;
+    overflow: hidden;
 }
 .secao-banner{
-    height: 680px;
+    height: 102vh;
     width: 100%; 
 }
 #frase-banner{
@@ -18,7 +19,7 @@
     background-color: #310D31;
     opacity: 0.6;
     position: absolute;
-    top: 236px;
+    top: 35vh;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -27,17 +28,17 @@
 }
 #frase-banner h1{
     font-weight: normal;
-    font-size: 2.0rem;
+    font-size: 4.0rem;
     color: #FAC64B;
-    margin: 40px 0;
+    margin: 6vh 0;
     font-style: normal;
     font-family: samantha;
 }
 .slick-prev{
-    left: 150px;
+    left: 14vw;
 }
 .slick-next{
-    right: 150px;
+    right: 14vw;
 }
 .slick-dotted.slick-slider{
     margin-bottom: 0;
@@ -54,14 +55,14 @@
 }
 .slick-dots li button:before{
     color: #FAC64B;
-    font-size: 14px;
+    font-size: 1rem;
     opacity: 1;
     width: auto;
     height: auto;
 }
 .slick-dots{
-    bottom: 50px;
+    bottom: 8vh;
 }
 .slick-prev:before, .slick-next:before {
-    font-size: 40px;
+    font-size: 3rem;
 }

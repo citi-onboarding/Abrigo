@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px){
+    #frase-banner{
+        top: 33vh;
+        width: 100%;
+    }
+    .slick-dots{
+        bottom: 2vh;
+    }
+    #frase-banner h1{
+        font-size: 2.0rem;
+        margin: 1.5vh 0;
+    }
+    #frase-banner{
+        background-color: #4F084F;
+        opacity: 0.8;
+    }
+    #img-banner{
+        height: 70vh;
+        transform: scale(1.2);
+        width: initial;
+        margin-left: -43vw;
+        opacity: 0.76;
+    }
+    .secao-banner{
+       height: 72vh;
+    }
+}
