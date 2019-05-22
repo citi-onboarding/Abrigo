@@ -1,8 +1,67 @@
-.secao-banner{
-    height: 590px;
-    width: 409px; 
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+
+@font-face{
+    font-family: samantha;
+    src: url('../samantha_4/SamanthaForPersonalUse.ttf');
 }
 #img-banner{
-    height: 350px;
-    width: 400px; 
+    height: 680px;
+    width: 100%;
+}
+.secao-banner{
+    height: 680px;
+    width: 100%; 
+}
+#frase-banner{
+    text-align: center;
+    background-color: #310D31;
+    opacity: 0.6;
+    position: absolute;
+    top: 236px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#frase-banner h1{
+    font-weight: normal;
+    font-size: 2.0rem;
+    color: #FAC64B;
+    margin: 40px 0;
+    font-style: normal;
+    font-family: samantha;
+}
+.slick-prev{
+    left: 150px;
+}
+.slick-next{
+    right: 150px;
+}
+.slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    border: 2px solid #FAC64B;
+    border-radius: 100%;
+    color: transparent;
+    width: 40%;
+    height: 40%;
+    margin:3px auto auto auto;
+
+}
+.slick-dots li button:before{
+    color: #FAC64B;
+    font-size: 14px;
+    opacity: 1;
+    width: auto;
+    height: auto;
+}
+.slick-dots{
+    bottom: 50px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 40px;
 }
