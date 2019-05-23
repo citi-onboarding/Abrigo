@@ -17,9 +17,9 @@
     }
     #img-banner{
         height: 50vh;
-        transform: scale(1.2);
-        max-width: 100%;
         opacity: 0.76;
+        transform: scale(1.1);
+        object-fit: cover;
     }
     .secao-banner{
        height: 72vh;
