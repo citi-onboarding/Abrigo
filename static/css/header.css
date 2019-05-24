@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 70px;
+    height: 10vh;
 }
 
 .burguer-menu{
@@ -16,19 +16,18 @@ body{
     margin-top: 10px;
 }
 .menu{
-    margin-top: 5px;
+    margin-top: 10px;
     background-color: #4F084F;
-    transition: 1s;
-    display: flex;
+    transition-duration: 0.5s;
+    display: none;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    opacity: 0;
 }
 
 .menu-text{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #310D31;
     width: 60%;
     height: 50px;
@@ -40,15 +39,11 @@ body{
     color: #FAC64B;
 }
 
+
 .change{
-    margin-top: 5px;
-    background-color: #4F084F;
-    transition: 1s;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    opacity: 1;
+    position: fixed;
+    left: 0;
 }
 
 .divisao{
@@ -67,4 +62,42 @@ body{
 
 .simbolo{
     transform: rotate(90deg)
+}
+.logo{
+    position: relative;
+    top: -10px;
+    height: 100px;
+}
+
+
+/*##########  MEDIA QUERY ########## */
+
+@media screen and (min-width: 600px){
+    .divisao{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        left: 0;
+        background-color: rgba(79, 8, 79, 0.85);
+        position: static;
+    }
+    .menu-text{
+        background: rgba(0, 0, 0, 0)
+    }
+    .burguer-menu{
+        display: none;
+    }
+    .container{
+        justify-content: flex-start;
+    }
+    .cut{
+        display: none;
+    }
+    .logo{
+        top: -10px;
+        left: 10%;
+        height: 110px;
+    }
 }
