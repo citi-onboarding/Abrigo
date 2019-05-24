@@ -3,7 +3,7 @@
         bottom: 1vh;
     }
     #frase-banner h1{
-        font-size: 2rem;
+        font-size: 5rem;
         margin: 3.5vh 0;
     }
     #frase-banner{
@@ -19,5 +19,20 @@
     }
     .secao-banner{
        height: 100vh;
+    }
+}
+@media only screen and (max-width: 900px){
+    #frase-banner h1{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    #frase-banner h1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    #frase-banner h1{
+        font-size: 1.5rem;
     }
 }
