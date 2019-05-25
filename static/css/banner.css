@@ -2,8 +2,8 @@
 @import url('../slick/slick-theme.css');
 
 @font-face{
-    font-family: samantha;
-    src: url('../samantha_4/SamanthaForPersonalUse.ttf');
+    font-family: Fonte;
+    src: url('../fontes/JustAnotherHand-Regular.ttf');
 }
 #img-banner{
     height: 100vh;
@@ -31,9 +31,30 @@
     font-weight: normal;
     font-size: 4.0rem;
     color: #FAC64B;
-    margin: 6vh 0;
+    margin: 4.5vh 0;
     font-style: normal;
-    font-family: samantha;
+    font-family: Fonte;
+}
+#chamada-banner{
+    text-align: center;
+    background-color: #310D31;
+    opacity: 0.6;
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#chamada-banner a{
+    font-weight: normal;
+    font-size: 3.0rem;
+    color: #FAC64B;
+    font-style: normal;
+    font-family: Fonte;
+    margin: 1.5vh 0;
+    text-decoration: none;
 }
 .slick-prev{
     left: 14vw;
