@@ -24,55 +24,39 @@
 #line1-contato{
     margin: 4vh 8vw 0.5vh 8vw;
     display: flex;
-}
-#line1-contato input{
-    width: 80%;
-}
-#nome-contato label{
-    display: block;
+    justify-content: space-evenly;
 }
 #nome-contato input{
-    display: block;
     width: 90%;
 }
-#telefone-contato label{ 
-    display: block;
+#telefone-contato{
+    width: 55%;
 }
 #telefone-contato input{
-    display: block;
+    width: 100%;
 }
 #line2-contato{
     margin: 0vh 8vw 0.5vh 8vw;
 }
 #line2-contato input{
-    display: block;
     width: 100%;
-}
-#line2-contato label{
-    display: block;
 }
 #line3-contato{
     margin: 0vh 8vw 0.5vh 8vw;
+    display: flex;
+    flex-direction: column;
 }
 #line3-contato input{
-    display: block;
     width: 30%;
-}
-#line3-contato label{
-    display: block;
 }
 #line4-contato{
     margin: 0vh 8vw 0.5vh 8vw;
 }
 #msg{
-    display: block;
     width: 100%;
     height: 20vh;
     opacity: 0.8;
     text-align: start;
-}
-#line4-contato label{
-    display: block;
 }
 #botao-contato{
     display: flex;
