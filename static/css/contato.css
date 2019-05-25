@@ -1,6 +1,6 @@
 .secao-contato{
     background-image: url(../images/doguinho\ lendo.png);
-    height: 65vh;
+    height: 100vh;
     object-fit: cover;
     background-repeat: no-repeat;
     background-color: #361131;
@@ -24,7 +24,7 @@
 #line1-contato{
     margin: 4vh 8vw 0.5vh 8vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 #nome-contato input{
     width: 90%;
