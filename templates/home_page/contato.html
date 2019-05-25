@@ -1,22 +1,28 @@
 {% load static %} 
 <section class="secao-contato">
-    <h1 id="titulo-contato"> Contato</h1>
+    <div id="titulo-contato">
+        <h1> Contato</h1>
+    </div>
     <form id="form-contato" method='POST' action="/">
     {% csrf_token %}
-        <div id="id-contato">
+        <div id="line1-contato">
             <label for="nome">Nome</label>
             <input id="nome" type="text" name="nome-contato">
-            <label for="email">E-mail</label>
-            <input id="email" type="text" name="email-contato">
             <label for="telefone">Telefone</label>
             <input id="telefone" type="text" name="telefone-contato">
+        </div>
+        <div id="line2-contato">
+            <label for="email">E-mail</label>
+            <input id="email" type="text" name="email-contato">
+        </div>
+        <div id="line3-contato">
             <label for="assunto">Assunto</label>
             <input id="assunto" type="text" name="assunto-contato">
         </div>
-        <div id="msg-contato">
-                <label for="msg">Mensagem</label>
+        <div id="line4-contato">
+            <label for="msg">Mensagem</label>
             <input id="msg" type="text" name="mensagem-contato">
-            <input type="submit" value="Enviar">
+            <input id="enviar" type="submit" value="Enviar">
         </div>
     </form>
 
