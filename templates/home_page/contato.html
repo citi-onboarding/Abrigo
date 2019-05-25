@@ -6,10 +6,14 @@
     <form id="form-contato" method='POST' action="/">
     {% csrf_token %}
         <div id="line1-contato">
-            <label for="nome">Nome</label>
-            <input id="nome" type="text" name="nome-contato">
-            <label for="telefone">Telefone</label>
-            <input id="telefone" type="number" name="telefone-contato">
+            <div id="nome-contato">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome-contato">
+            </div>
+            <div id="telefone-contato">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" type="number" name="telefone-contato">
+            </div>
         </div>
         <div id="line2-contato">
             <label for="email">E-mail</label>
@@ -21,7 +25,9 @@
         </div>
         <div id="line4-contato">
             <label for="msg">Mensagem</label>
-            <input id="msg" type="text" name="mensagem-contato">
+            <textarea id="msg" type="text" name="mensagem-contato"></textarea>
+        </div>
+        <div id="botao-contato">
             <input id="enviar" type="submit" value="Enviar">
         </div>
     </form>
