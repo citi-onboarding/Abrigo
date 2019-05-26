@@ -12,9 +12,9 @@
 #titulo-contato h1{
     color: #310D31;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: normal;
-    padding: 2vh;
+    padding: 4vh;
 }
 #titulo-contato{
     background-color: #FFFFFF;
@@ -80,9 +80,10 @@ input{
    padding: 0;
    opacity: 0.7;
    border-style: none;
-   height: 3vh;
+   height: 3.5vh;
 }
 label{
     color: #FAC64B;
     font-weight: normal;
+    font-size: 0.8rem;
 }

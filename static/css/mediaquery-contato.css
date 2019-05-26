@@ -1,0 +1,51 @@
+@media only screen and (min-width: 600px){
+    #titulo-contato h1{
+        padding: 5vh;
+        font-size: 3rem;
+    }
+    label{
+        font-size: 2rem;
+    }
+    #msg{
+        margin-top: 0.5vh;
+    }
+    #nome,#telefone,#email,#assunto{
+        height: 4vh;
+        font-size: 1.5rem;
+    }
+    #msg{
+        height:25vh;
+        font-size: 1.5rem;
+    }
+    #enviar{
+        font-size: 1.5rem;
+        width: 21%;
+        height: 4vh;
+    }
+    #telefone-contato{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #titulo-contato{
+        margin-right: 25vw;
+        margin-top: 5vh;
+    }
+    #nome-contato input{
+        width: 50vw;
+    }
+    #nome,#telefone,#email,#assunto{
+        height: 6vh;
+    }
+    #msg{
+        height: 30vh;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    #enviar{
+        width: 10%;
+        height: 5vh;
+        font-size: 1rem;
+    }
+}
