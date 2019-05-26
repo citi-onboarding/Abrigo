@@ -59,6 +59,7 @@
     background-color: rgba(255, 255, 255, 0.6);
     text-align: start;
     color: rgba(49, 13, 49, 1);
+    font-family: 'Roboto Slab', serif;
 }
 
 #botao-contato{
@@ -85,6 +86,7 @@ input{
    border-style: none;
    height: 3.5vh;
    color: #310D31;
+   font-family: 'Roboto Slab', serif;
 }
 label{
     color: #FAC64B;
