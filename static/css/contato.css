@@ -56,9 +56,11 @@
 #msg{
     width: 100%;
     height: 20vh;
-    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: start;
+    color: rgba(49, 13, 49, 1);
 }
+
 #botao-contato{
     display: flex;
     margin: 0vh 8vw;
@@ -88,5 +90,5 @@ label{
     color: #FAC64B;
     font-weight: normal;
     font-size: 0.8rem;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', serif;
 }
