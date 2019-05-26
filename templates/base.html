@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/cssreset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/contato.css' %}">
+    <link rel="stylesheet" href="{% static 'css/banner.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mediaquery-banner.css' %}">
     {% endblock %}
  
     <title>Document</title>
 </head>
 <body>
     <!-- Seção navbar-->
-    
+    {% include 'home_page/banner.html' %}
     <!-- Seção baner -->
     
     <!-- Seção sobre nós -->
@@ -23,10 +28,15 @@
     <!-- Seção eventos -->
     
     <!-- Seção contato -->
-    {% include 'home_page/contato.html' %}
+   {% include 'home_page/contato.html' %}
     <!-- Footer -->
 
     {% block script %}
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="{% static 'slick/slick.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'javascript/slick-banner.js' %}"></script>
+
     {% endblock %}
 </body>
 </html>
