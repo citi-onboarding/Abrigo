@@ -14,23 +14,24 @@
     <link rel="stylesheet" href="{% static 'css/mediaquery-banner.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-contato.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/ns.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mediaquery-ns.css' %}">
     {% endblock %}
  
     <title>Document</title>
 </head>
 <body>
     <!-- Seção navbar-->
-
     <!-- Seção baner -->
-     {% include 'home_page/banner.html' %}
+    {% include 'home_page/banner.html' %}
     <!-- Seção sobre nós -->
-    
+    {% include 'home_page/nossahistoria.html' %}
     <!-- Seção como ajudar -->
     
     <!-- Seção eventos -->
     
     <!-- Seção contato -->
-   {% include 'home_page/contato.html' %}
+    {% include 'home_page/contato.html' %}
     <!-- Footer -->
 
     {% block script %}
