@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Samanta;
+    src: url('../fontes/JustAnotherHand-Regular.ttf');
+}
+
+#ns-foto{
+    position: relative;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    height: 50vh;
+    width: 90vw;
+    isolation: isolate;
+    background-color: #4F084F;
+}
+
+#ns-foto img{
+    max-height: 100%;
+    opacity: 0.8;
+    mix-blend-mode: lighten;
+}
+
+#ns-texto{
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    background: rgba(79, 8, 79, 0.9);
+    color: #FAC64B;
+    text-align: center;
+    width: 78%;
+}
+
+#ns-texto p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 1.5rem;
+    line-height: 3vh;
+}
+
+#ns-titulo{
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.68);
+}
+
+#ns-titulo h1{
+    font-family: Samanta;
+    font-weight: normal;
+    color: #4F084F;
+    font-size: 2.5rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.nossahistoria{
+    position: relative;
+}
