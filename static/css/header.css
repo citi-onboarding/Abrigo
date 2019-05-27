@@ -18,11 +18,15 @@ body{
 .menu{
     margin-top: 10px;
     background-color: #4F084F;
-    transition-duration: 0.5s;
-    display: none;
+    display: flex;
+    position: fixed;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    opacity: 0;
+    width: 0px;
+    transition: all 0.25s linear;
+    right: 0;
+    font-size: 0rem;
 }
 
 .menu-text{
@@ -35,15 +39,15 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Roboto Slab', serif;
-    font-size: 27px;
     color: #FAC64B;
 }
 
 
 .change{
-    display: flex;
-    position: fixed;
-    left: 0;
+    right: 0;
+    opacity: 1;
+    width: 100%;
+    font-size: 2rem;
 }
 
 .divisao{
