@@ -16,7 +16,6 @@ body{
     margin-top: 10px;
 }
 .menu{
-    margin-top: 10px;
     background-color: #4F084F;
     display: flex;
     position: fixed;
@@ -26,7 +25,9 @@ body{
     width: 0px;
     transition: all 0.25s linear;
     right: 0;
+    top: 12vh;
     font-size: 0rem;
+    z-index: 2;
 }
 
 .menu-text{
@@ -91,6 +92,9 @@ body{
         left: 0;
         background-color: rgba(79, 8, 79, 0.85);
         position: static;
+        opacity: 1;
+        font-size: 1.5rem;
+        width: 100%;
     }
     .menu-text{
         background: rgba(0, 0, 0, 0)

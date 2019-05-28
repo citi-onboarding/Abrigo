@@ -13,7 +13,9 @@
 }
 .secao-banner{
     height: 100vh;
-    width: 100%; 
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 #frase-banner{
     text-align: center;
