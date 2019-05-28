@@ -9,8 +9,7 @@
     width: 90vw;
 }
 #titulo1-eventos{
-    background-color: white;
-    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.6);
     width: 100vw;
     text-align: center;
     padding: 2vh 0;
@@ -25,7 +24,6 @@
     font-weight: normal;
     color: #4F084F;
     font-size: 2.5rem;
-    opacity: 1;
 }
 #frase1-eventos{
     background-color: #310D31;
@@ -41,7 +39,7 @@
     font-family: 'Roboto Slab', serif;
     padding: 20px 15px;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #frase2-eventos{
     background-color: #310D31;
@@ -57,18 +55,21 @@
     font-family: 'Roboto Slab', serif;
     padding: 20px 15px;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #titulo2-eventos{
-    background-color: #F9AF00;
-    opacity: 0.6;
+    background-color: rgba(249, 175, 0, 0.6);
     width: 100%;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     position: absolute;
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
-#titulo2-eventos h2{
+#titulo2-eventos h1{
     color: #310D31;
     opacity: 1;
+    padding: 2vh 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+
 }
