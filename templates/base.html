@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {% block css %}
     <link rel="stylesheet" type="text/css" href="{% static 'css/cssreset.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/contato.css' %}">
@@ -17,11 +18,12 @@
     <link rel="stylesheet" href="{% static 'css/ns.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-ns.css' %}">
     {% endblock %}
- 
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <!-- Seção navbar-->
+    {% include 'home_page/header.html' %}
     <!-- Seção baner -->
     {% include 'home_page/banner.html' %}
     <!-- Seção sobre nós -->
