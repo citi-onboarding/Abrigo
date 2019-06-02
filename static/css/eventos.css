@@ -1,0 +1,149 @@
+.secao-eventos{
+    background-color: white;
+    position: relative;
+}
+#imgtop-eventos{
+    display: flex;
+    margin: 0 auto;
+    width: 90vw;
+    filter: drop-shadow(0px 0px purple) brightness(90%);
+}
+#linhaamarela1-eventos{
+    background-color: #FAC64B;
+    height: 1vh;
+    width: 80vw;
+    margin-top: -16vh;
+    position: absolute;
+}
+#linhaamarela2-eventos{
+    background-color: #FAC64B;
+    height: 1vh;
+    position: absolute;
+    width: 59.5vw;
+    margin-top: 2vh;
+    margin-left: 40vw;
+}
+#titulo1-eventos{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100vw;
+    text-align: center;
+    padding: 2vh 0;
+    position: absolute;
+    margin: -15vh 0;
+
+}
+#titulo1-eventos h1{
+    font-family: Fonte;
+    font-weight: normal;
+    color: #4F084F;
+    font-size: 2.5rem;
+}
+#frase1-eventos{
+    background-color: #310D31;
+    display: flex;
+    width: 45vw;
+    text-align: center;
+    margin: 0 5vw;
+    position: absolute;
+    opacity: 0.8;
+}
+#frase1-eventos h2{
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 15px;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+#frase2-eventos{
+    background-color: #310D31;
+    display: flex;
+    width: 50vw;
+    text-align: center;
+    margin: 7vh 45vw;
+    position: absolute;
+    opacity: 0.8;
+}
+#frase2-eventos h2{
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 15px;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+#frase3-eventos{
+    display: none;
+    background-color: #310D31;
+    width: 48.5vw;
+    text-align: center;
+    margin: -8vh 50vw;
+    position: absolute;
+    opacity: 0.8;
+}
+#frase3-eventos h1{
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 15px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+#titulo2-eventos{
+    background-color: rgba(249, 175, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 26vh;
+}
+#titulo2-eventos h1{
+    color: #310D31;
+    opacity: 1;
+    padding: 2.5vh 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    
+}
+.carrossel-eventos{
+    margin-top: 40vh;
+}
+.carrossel-eventos .slick-slide img{
+    margin: auto;
+    width: 60vw;
+    padding: 10px;
+}
+.carrossel-eventos .slick-dots li.slick-active button:before{
+    border:1px solid #310D31;
+    width: 60%;
+    height: 60%;
+    margin: 2px auto;
+    color: transparent;
+}
+.carrossel-eventos .slick-dots li button:before{
+    color: #310D31;
+}
+.carrossel-eventos .slick-dots{
+    position: relative;
+    bottom: 0vh;
+}
+.carrossel-eventos .slick-slide{
+    opacity: 0.7;
+}
+.carrossel-eventos .slick-active{
+    opacity: 1;
+}
+#divisoria-eventos{
+    width: 100%;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+#dogdiv-eventos{
+    width: 7vw;
+}
+#linhadiv-eventos{
+    width: 40%;
+    background-color: #4F084F;
+    height: 1vh;
+}
+

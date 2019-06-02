@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/ns.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-ns.css' %}">
+     <link rel="stylesheet" href="{% static 'css/eventos.css' %}">
+     <link rel="stylesheet" href="{% static 'css/mediaquery-eventos.css' %}">
     {% endblock %}
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -31,7 +33,7 @@
     <!-- Seção como ajudar -->
     
     <!-- Seção eventos -->
-    
+    {% include 'home_page/eventos.html' %}
     <!-- Seção contato -->
     {% include 'home_page/contato.html' %}
     <!-- Footer -->
@@ -41,7 +43,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="{% static 'slick/slick.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'javascript/slick-banner.js' %}"></script>
-
+    <script type="text/javascript" src="{% static 'javascript/slick-eventos.js' %}"></script>
     {% endblock %}
 </body>
 </html>
