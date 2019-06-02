@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{% static 'css/banner.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-banner.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-contato.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/ns.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-ns.css' %}">
@@ -21,22 +22,20 @@
      <link rel="stylesheet" href="{% static 'css/mediaquery-eventos.css' %}">
     {% endblock %}
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <!-- Seção navbar-->
-    {% include 'home_page/header.html' %}
     <!-- Seção baner -->
-    {% include 'home_page/banner.html' %}
     <!-- Seção sobre nós -->
-    {% include 'home_page/nossahistoria.html' %}
     <!-- Seção como ajudar -->
     
     <!-- Seção eventos -->
     {% include 'home_page/eventos.html' %}
     <!-- Seção contato -->
-    {% include 'home_page/contato.html' %}
     <!-- Footer -->
+    {% include 'home_page/footer.html' %}    
 
     {% block script %}
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
