@@ -56,16 +56,12 @@ class Apoia(models.Model):
 		verbose_name_plural = 'Apoia-se'
 #Model Eventos
 class Eventos(models.Model):
-	foto = models.ImageField(upload_to="evento_image/")
-	local = models.TextField(null=False, blank=False)
-	dia = models.CharField(max_length=50, null=True, blank=True)
-	horario = models.IntegerField(null=True, blank=True)
-	infoEvento = models.TextField(null=False, blank=False)
-	infoAnimais = models.TextField(null=False, blank=False)
-	postagem = models.URLField(default="", blank=True)
+	Nome = models.CharField(max_length=100, null=True, blank=True)
+	Foto = models.ImageField(upload_to="evento_image/")
+	Postagem = models.URLField(default="", blank=True)
 
 	def __str__(self):
-		return self.local
+		return self.Nome
 
 	class Meta:
 		verbose_name_plural = 'Eventos'
