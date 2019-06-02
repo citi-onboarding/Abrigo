@@ -10,34 +10,27 @@
     <div class="ca-texto">
         <p>Contribua com qualquer valor a nossa causa</p>
     </div>
+    <div>
+        {% for usuario in usuarios %}
+            <p>{{usuario.usuario}}</p>
+        {% endfor %}
+    </div>
     <div class="ca-carrosseis">
         <div class="slick-contas">
+        {% for conta in contas %}
             <div class="ca-bancos">
-                <img src="{% static 'images/bb.png' %}" alt="">
+                <img src="{{ conta.foto.url }}" alt="">
             </div>
-            <div class="ca-bancos">
-                <img src="{% static 'images/bb.png' %}" alt="">            
-            </div>
-            <div class="ca-bancos">
-                <img src="{% static 'images/bb.png' %}" alt="">
-            </div>
+        {% endfor %}
         </div>
         <div class="slick-infos">
+        {% for conta in contas %}
             <div class="ca-banco-info">
-                <p>Banco do Brasil</p>
-                <p>Agencia 3250-6, C/c:</p>
-                <p>26008-8</p>
+                <p>{{ conta.conta_bancaria }}</p>
+                <p>{{ conta.numero_agencia }}</p>
+                <p>{{ conta.nome_titular }}</p>
             </div>
-            <div class="ca-banco-info">
-                <p>Banco do Brasil</p>
-                <p>Agencia 3250-6, C/c:</p>
-                <p>26008-8</p>
-            </div>
-            <div class="ca-banco-info">
-                <p>Banco do Brasil</p>
-                <p>Agencia 3250-6, C/c:</p>
-                <p>26008-8</p>
-            </div>
+        {% endfor %}
         </div>
     </div>
 

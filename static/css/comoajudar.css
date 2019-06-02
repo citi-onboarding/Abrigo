@@ -61,7 +61,8 @@
 }
 
 .ca-bancos img{
-    width: 100%;
+    width: 80px;
+    height: 80px;
     object-position: center;
     object-fit: none;
 }

@@ -5,17 +5,17 @@ from django.db import models
 #Model Bancos
 
 class Contas(models.Model):
-	foto = models.ImageField(upload_to='contas_image/')
-	conta_bancaria = models.IntegerField(blank=False, null=True)
-	numero_agencia = models.IntegerField(blank=False, null=True)
-	nome_titular = models.CharField(max_length=100, blank=False, null=True)
-	codigo_banco = models.IntegerField(blank=False, null=True)
-	cpf = models.IntegerField(blank=False, null=True)
-	def __str__(self):
-		return self.conta_bancaria
+    foto = models.ImageField(upload_to='contas_image/')
+    conta_bancaria = models.IntegerField(blank=False, null=True)
+    numero_agencia = models.IntegerField(blank=False, null=True)
+    nome_titular = models.CharField(max_length=100, blank=False, null=True)
+    codigo_banco = models.IntegerField(blank=False, null=True)
+    cpf = models.IntegerField(blank=False, null=True)
+    def __str__(self):
+        return self.nome_titular
 
-	class Meta:
-		verbose_name = 'Contas Bancária'
+    class Meta:
+        verbose_name = 'Contas Bancária'
 
 #Model Doacao
 class Doacao(models.Model):
