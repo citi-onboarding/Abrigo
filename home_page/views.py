@@ -14,6 +14,7 @@ class HomeView(generic.TemplateView):
 		context = super().get_context_data(**kwargs)
 		context["eventos"] = Eventos.objects.all()
 		context["doacao"] = Doacao.objects.all()
+		context["contas"] = Contas.objects.all()
 		return context
 
 	def post(self, request, *args, **kwargs):
