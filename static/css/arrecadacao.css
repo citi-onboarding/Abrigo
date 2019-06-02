@@ -9,7 +9,7 @@
 #frase1-arrec{
     background-color: #310D31;
     display: flex;
-    width: 45vw;
+    width: 50vw;
     text-align: center;
     margin: 1vh 0;
     position: absolute;
@@ -19,13 +19,14 @@
     font-family: 'Roboto Slab', serif;
     padding: 10px 15px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: left;
 }
 #titulo-arrec{
     display: flex;
     width: 100%;
     text-align: center;
+    margin: 5vh 0 1vh 0;
 }
 #titulo-arrec h1{
     width: 100%;
@@ -33,9 +34,6 @@
     font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
     font-weight: normal;
-}
-.carrossel-arrec{
-    margin-top: 5vh;
 }
 .carrossel-arrec .slick-slide img{
     margin: auto;
@@ -59,4 +57,39 @@
 }
 .carrossel-arrec .slick-active{
     opacity: 1;
+}
+#nomelocal-arrec{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    margin: 10px auto;
+    background-color: #310D31;
+    opacity: 0.7;
+    width: 55vw;
+    margin: -24vh 0 0 8vw;
+}
+#nomelocal-arrec h2{
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #FAC64B;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+#endlocal-arrec{
+    display: flex;
+    width: 55vw;
+    margin: -6vh 0 0 8vw;
+    position: absolute;
+    text-align: center;
+    background-color: #310D31;
+    opacity: 0.7;
+}
+#endlocal-arrec h2{
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #FAC64B;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
 }
