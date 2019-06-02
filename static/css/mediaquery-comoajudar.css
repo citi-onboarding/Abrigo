@@ -1,0 +1,11 @@
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+
+@font-face{
+    font-family: Fonte;
+    src: url('../fontes/JustAnotherHand-Regular.ttf');
+}
+
+@media only screen and (min-width: 1200px){
+    
+}

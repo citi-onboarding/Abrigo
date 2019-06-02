@@ -4,7 +4,15 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true,
         fade: true,
-        asNavFor: '.slick-infos'
+        asNavFor: '.slick-infos',
+        responsive: [
+            {
+                breakpoint: 1024,
+                setting: {
+                    
+                }
+            }
+        ]
     });
 });
 
@@ -14,7 +22,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         asNavFor: '.slick-contas',
         arrows: false,
-        fade: true
+        fade: true,
     });
 });
 
