@@ -1,9 +1,11 @@
 {% load static %} 
 <section class="secao-eventos">
         <img id="imgtop-eventos" src="{% static 'images/evento@3x.png' %}" alt="">
+        <div id="linhaamarela1-eventos"></div>
         <div id="titulo1-eventos">
             <h1>Eventos</h1>
         </div>
+        <div id="linhaamarela2-eventos"></div>
         <div id="frase1-eventos">
             <h2>Chegou a hora de você conhecer seu amiguinho!</h2>
         </div>
@@ -19,10 +21,14 @@
         <div id="titulo2-eventos">
             <h1>Passe um evento conosco!</h1>
         </div>
-        <div class="carrossel-eventos">
-            <div id="carrosseis-eventos"> <img src="{% static 'images/adocao@3x.png' %}" alt=""></div>
-            <div id="carrosseis-eventos"> <img src="{% static 'images/adocao@3x.png' %}" alt=""></div>
-            <div id="carrosseis-eventos"> <img src="{% static 'images/adocao@3x.png' %}" alt=""></div>
+        <div class="carrossel-eventos"> 
+            {% for evento in eventos %}
+            <div id="carrosseis-eventos"> 
+                <a href="{{ evento.postagem }}"> 
+                    <img src="{{ evento.foto.url }}" alt=""> 
+                </a> 
+            </div>
+            {% endfor %}
         </div>
         <div id="divisoria-eventos">
             <div id="linhadiv-eventos"></div>
