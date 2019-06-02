@@ -132,7 +132,6 @@
 #divisoria-eventos{
     width: 100%;
     display: flex;
-    position: absolute;
     margin-top: 5vh;
     justify-content: space-between;
     align-items: center;
