@@ -4,9 +4,9 @@
     background-repeat: no-repeat;
     background-color: #361131;
     background-position-x: center;
-    position: absolute;
     background-blend-mode: lighten;
     width: 100%;
+    padding: 1.5vh 0;
 }
 #titulo-contato h1{
     color: #310D31;
