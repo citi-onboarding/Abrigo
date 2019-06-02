@@ -108,6 +108,7 @@
 .carrossel-eventos .slick-slide img{
     margin: auto;
     width: 60vw;
+    padding: 10px;
 }
 .carrossel-eventos .slick-dots li.slick-active button:before{
     border:1px solid #310D31;
