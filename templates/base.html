@@ -19,8 +19,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/ns.css' %}">
     <link rel="stylesheet" href="{% static 'css/mediaquery-ns.css' %}">
-     <link rel="stylesheet" href="{% static 'css/eventos.css' %}">
-     <link rel="stylesheet" href="{% static 'css/mediaquery-eventos.css' %}">
+    <link rel="stylesheet" href="{% static 'css/eventos.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mediaquery-eventos.css' %}">
+    <link rel="stylesheet" href="{% static 'css/arrecadacao.css' %}">
     {% endblock %}
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -34,7 +35,7 @@
     <!-- Seção sobre nós -->
     {% include 'home_page/nossahistoria.html' %}
     <!-- Seção como ajudar -->
-    
+    {% include 'home_page/arrecadacao.html' %}
     <!-- Seção eventos -->
     {% include 'home_page/eventos.html' %}
     <!-- Seção contato -->
@@ -46,8 +47,9 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="{% static 'slick/slick.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'javascript/slick-banner.js' %}"></script>
-    <script type="text/javascript" src="{% static 'javascript/slick-eventos.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/slick-banner.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/slick-eventos.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/slick-arrecadacao.js' %}"></script>
     {% endblock %}
 </body>
 </html>

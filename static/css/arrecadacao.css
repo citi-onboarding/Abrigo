@@ -1,0 +1,62 @@
+#secao-arrec{
+    background-color: #4F084F;
+}
+#frases-arrec{
+    display: flex;
+    width: 100%; 
+    height: 15vh;
+}
+#frase1-arrec{
+    background-color: #310D31;
+    display: flex;
+    width: 45vw;
+    text-align: center;
+    margin: 1vh 0;
+    position: absolute;
+}
+#frase1-arrec h1{
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: left;
+}
+#titulo-arrec{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#titulo-arrec h1{
+    width: 100%;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.carrossel-arrec{
+    margin-top: 5vh;
+}
+.carrossel-arrec .slick-slide img{
+    margin: auto;
+    width: 65vw;
+    padding: 10px;
+    border-radius: 20px;
+}
+.carrossel-arrec .slick-dots{
+    position: relative;
+    bottom: 0vh;
+}
+.carrossel-arrec .slick-dots li.slick-active button:before{
+    border:1px solid #FAC64B;
+    width: 60%;
+    height: 60%;
+    margin: 2px auto;
+    color: transparent;
+}
+.carrossel-arrec .slick-slide{
+    opacity: 0.7;
+}
+.carrossel-arrec .slick-active{
+    opacity: 1;
+}
