@@ -50,6 +50,10 @@
     #linhadiv-eventos{
         height: 1vh;
     }
+    #linhaamarela1-eventos{
+        width: 65vw;
+        margin-top: -26vh;
+    }
 }
 @media only screen and (min-width: 1200px){
     #titulo1-eventos{
