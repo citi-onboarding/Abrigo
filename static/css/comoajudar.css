@@ -9,18 +9,22 @@
 .como-ajudar{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-color: #4F084F;
 }
-.ca-foto{
+.ca-foto1{
     position: relative;
     width: 80vw;
     margin: -1vh 10vw 0 10vw;
 }
 
-.ca-foto img{
+.ca-foto1 img{
     width: 100%;
     object-fit: contain;
+}
+
+.ca-foto2{
+    display: none;
 }
 
 .ca-titulo{
@@ -52,24 +56,33 @@
     bottom: 8vh;
 }
 
+.ca-line{
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    height: 2px;
+    background-color: #FAC64B;
+}
+
 
 
 .slick-contas{
     width: 50%;
     left: 25vw;
-    top: 4vh;
+    top: 10vh;
 }
 
 .ca-bancos img{
-    width: 80px;
+    width: 100%;
     height: 80px;
     object-position: center;
-    object-fit: none;
+    object-fit: contain;
 }
 
 .slick-infos{
     width: 35%;
     left: 32.5vw;
+    top: 11vh;
 }
 
 .ca-banco-info{
@@ -94,5 +107,5 @@
 }
 
 .slick-contas .slick-next:before{
-    right: 7vw;
+    right: 8vw;
 }

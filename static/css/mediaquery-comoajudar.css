@@ -7,5 +7,132 @@
 }
 
 @media only screen and (min-width: 1200px){
+    .como-ajudar{
+        height: 100vh;
+    }
+
+    .ca-banner{
+        display: flex;
+        flex-direction: row;
+        height: 48vh;
+    }
+    .ca-foto1{
+        width: 50vw;
+        margin: 2vh 0 0 0;
+    }
+    .ca-foto2{
+        display: block;
+        width: 50vw;
+        margin-top: 2vh;
+    }
+    .ca-foto1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .ca-foto2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .ca-titulo{
+        width: 70%;
+        padding: 3vh 0 3vh 0;
+        top: 15vh;
+    }
+    .ca-titulo h1{
+        margin-left: 33vw;
+        font-size: 5rem;
+    }
+
+    .ca-texto{
+        margin: 0;
+        left: 33vw;
+        top: 37vh;
+        position: absolute;
+        font-size: 2rem;
+        width: 30vw;
+        padding: 2vw;
+        background-color: #310D31;
+        background-color: rgba(49, 13, 49, 0.95)
+    }
+
+    .ca-line{
+        display: none;
+    }
+
+    .ca-line1{
+        position: relative;
+        width: 35%;
+        height: 1vh;
+        top: 0vh;
+        background-color: white;
+    }
+
+    .ca-line2{
+        position: relative;
+        width: 35%;
+        height: 1vh;
+        top: -1vh;
+        left: 65vw;
+        background-color: white;
+    }
+
+    /* Area dos Carroseis e Modal */
+
+    .ca-carrosseis{
+        position: relative;
+        top: 20vh;
+    }
     
+    .ca-line{
+        position: absolute;
+        bottom: 1vh;
+        width: 100%;
+        height: 2px;
+        background-color: #FAC64B;
+    }
+    
+    
+    
+    .slick-contas{
+        top: -15vh;
+    }
+    
+    .ca-bancos img{
+        height: 200px;
+    }
+    
+    .slick-infos{
+        display: none;
+    }
+    
+    .ca-banco-info{
+        font-family: 'Roboto Slab';
+        color: #FAC64B;
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: center;
+        background-color: #310D31;
+        padding: 5vw;
+    }
+    
+    .slick-contas .slick-prev:before, .slick-next:before{
+        top: 0vh;
+        font-size: 3.5rem;
+        opacity: 1;
+    }
+    
+    .slick-contas .slick-prev:before{
+        left: 13vw;
+    }
+    
+    .slick-contas .slick-next:before{
+        right: 16vw;
+    }
+
+
+
+
 }

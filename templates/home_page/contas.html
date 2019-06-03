@@ -1,8 +1,13 @@
 {% load static %}
 
 <section class="como-ajudar">
-    <div class="ca-foto">
-        <img src="{% static 'images/foto-como-ajudar.png' %}" alt="">
+    <div class="ca-banner">
+        <div class="ca-foto1">
+                <img src="{% static 'images/collaboration-community-cooperation-461049.png' %}" alt="">
+        </div>
+        <div class="ca-foto2">
+            <img src="{% static 'images/collaboration-community-cooperation-461049.png' %}" alt="">
+        </div>
     </div>
     <div class="ca-titulo">
         <h1>Como ajudar</h1>
@@ -16,6 +21,8 @@
         {% endfor %}
     </div>
     <div class="ca-carrosseis">
+        <div class="ca-line1"></div>
+        <div class="ca-line2"></div>
         <div class="slick-contas">
         {% for conta in contas %}
             <div class="ca-bancos">
@@ -26,12 +33,11 @@
         <div class="slick-infos">
         {% for conta in contas %}
             <div class="ca-banco-info">
-                <p>{{ conta.conta_bancaria }}</p>
-                <p>{{ conta.numero_agencia }}</p>
-                <p>{{ conta.nome_titular }}</p>
+                <p>{{ conta.info }}</p>
             </div>
         {% endfor %}
         </div>
     </div>
-
+    
+    <div class="ca-line"></div>
 </section>
