@@ -1,0 +1,70 @@
+@media only screen and (min-width: 1200px){
+    .carrossel-arrec .slick-slide img{
+        margin: auto;
+        width: 45vw;
+        padding: 1vh 60px;
+        border-radius: 15%;
+    }
+    .carrossel-arrec .slick-prev{
+        left: 22vw;
+        top: 43%;
+    }
+    .carrossel-arrec .slick-next{
+        right: 24vw;
+        top: 43%;
+    }
+    .carrossel-arrec .slick-dots li button:before{
+        color: white;
+    }
+    .carrossel-arrec .slick-dots li.slick-active button:before{
+        border-color: white;
+    }
+    #frase1-arrec{
+        margin: 4vh 0 2vh 0;
+        width: 60vw;
+    }
+    #frase1-arrec h1{
+        font-size: 2.5rem;
+        text-align: right;
+        width: 100%;
+        padding: 3vh 1vw 3vh 0;
+    }
+    #botaomodal-arrec{
+        height: 15vh;
+        width: 30vw;
+        position: absolute;
+        margin: 18vh 0 0 68.8vw;
+        font-size: 1rem;
+        padding: 0 12vw 0 2vw;
+        text-align: left;
+    }
+    #titulo-arrec h1{
+        padding: 0px 25vw;
+        font-size: 2.5rem;
+    }
+    #nomelocal-arrec h2{
+        font-size: 1rem;
+    }
+    #nomelocal-arrec{
+        width: 42vw;
+        margin: 0px 0 0 6vw;
+        top: 6vh;
+    }
+    #endlocal-arrec h2{
+        font-size: 1rem;
+    }
+    #endlocal-arrec{
+        width: 42vw;
+        margin: -10vh 0 0 6vw;
+    }
+    #modal-arrec{
+        height: 40vh;
+        width: 25vw;
+        margin: 33vh 0 0 37vw;
+    }
+    #modal-arrec p{
+        font-size: 1.1rem;
+        margin: 3vh 0;
+    }
+
+}

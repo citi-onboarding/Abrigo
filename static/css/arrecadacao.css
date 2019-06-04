@@ -1,27 +1,62 @@
 #secao-arrec{
     background-color: #4F084F;
+    position: relative;
 }
 #frases-arrec{
     display: flex;
-    width: 100%; 
-    height: 15vh;
+    width: 100%;
+    justify-content: space-between;
 }
 #frase1-arrec{
     background-color: #310D31;
     display: flex;
     width: 50vw;
     text-align: center;
-    margin: 1vh 0;
-    position: absolute;
 }
 #frase1-arrec h1{
     color: #FAC64B;
     font-family: 'Roboto Slab', serif;
-    padding: 10px 15px;
+    line-height: initial;
+    padding: 1vh 0 1vh 5vw;
     font-weight: normal;
     font-size: 1.8rem;
     text-align: left;
 }
+#botaomodal-arrec{
+    width: 30vw;
+    height: 15vh;
+    border: none;
+    background-color: #310D31;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.7rem;
+    margin: 4vh 5vw 0 0;
+}
+#modal-arrec{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    height: 20vh;
+    width: 50vw;
+    margin: 20vh 0 0 25vw;
+    text-align: center;
+    overflow: auto;
+    background-color: #310D31;
+}
+#modalconteudo-arrec{
+    margin: 0 auto;
+    padding: 8px;
+}
+#modalconteudo-arrec p{
+    margin: 1vh 0;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.7rem;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+}
+
 #titulo-arrec{
     display: flex;
     width: 100%;
@@ -43,7 +78,7 @@
 }
 .carrossel-arrec .slick-dots{
     position: relative;
-    bottom: 0vh;
+    bottom: 5vh;
 }
 .carrossel-arrec .slick-dots li.slick-active button:before{
     border:1px solid #FAC64B;
@@ -60,13 +95,12 @@
 }
 #nomelocal-arrec{
     display: flex;
-    width: 80%;
     position: absolute;
-    margin: 10px auto;
     background-color: #310D31;
     opacity: 0.7;
     width: 55vw;
-    margin: -24vh 0 0 8vw;
+    margin: 0 0 0 8vw;
+    top: 3vh;
 }
 #nomelocal-arrec h2{
     font-size: 0.7rem;
