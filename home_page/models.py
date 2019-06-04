@@ -21,7 +21,7 @@ class Contas(models.Model):
 class Doacao(models.Model):
 	voluntario = models.CharField(max_length=100, blank=False, null=False)
 	local = models.CharField(max_length=250,null=False, blank=False)
-	endereco = models.TextField(null=False, blank=False)
+	endereco = models.CharField(max_length=350,null=False, blank=False, default='Endereço')
 	dias = models.CharField(max_length=50, null=True, blank=True)
 	horario = models.IntegerField(null=True, blank=True)
 	foto = models.ImageField(upload_to="doacao_image/")

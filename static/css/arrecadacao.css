@@ -34,7 +34,7 @@
 }
 #modal-arrec{
     display: none;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     height: 20vh;
     width: 50vw;
