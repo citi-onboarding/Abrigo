@@ -4,12 +4,12 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: true,
         fade: true,
+        dots: false,
         asNavFor: '.slick-infos',
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 600,
                 setting: {
-                    
                 }
             }
         ]

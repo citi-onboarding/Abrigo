@@ -15,19 +15,14 @@
     <div class="ca-texto">
         <p>Contribua com qualquer valor a nossa causa</p>
     </div>
-    <div>
-        {% for usuario in usuarios %}
-            <p>{{usuario.usuario}}</p>
-        {% endfor %}
-    </div>
     <div class="ca-carrosseis">
         <div class="ca-line1"></div>
         <div class="ca-line2"></div>
         <div class="slick-contas">
         {% for conta in contas %}
-            <div class="ca-bancos">
-                <img src="{{ conta.foto.url }}" alt="">
-            </div>
+        <div class="ca-bancos">
+            <img src="{{ conta.foto.url }}" alt="">
+        </div>
         {% endfor %}
         </div>
         <div class="slick-infos">
@@ -36,6 +31,9 @@
                 <p>{{ conta.info }}</p>
             </div>
         {% endfor %}
+        </div>
+        <div class="ca-modal">
+            <h2>Veja aqui nossos dados bancários para doações!</h2>
         </div>
     </div>
     

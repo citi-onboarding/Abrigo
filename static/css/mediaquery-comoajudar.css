@@ -79,7 +79,7 @@
         background-color: white;
     }
 
-    /* Area dos Carroseis e Modal */
+    /* Area dos Carroseis*/
 
     .ca-carrosseis{
         position: relative;
@@ -105,17 +105,18 @@
     }
     
     .slick-infos{
-        display: none;
+        position: fixed;
+        z-index: 1;
+        top: 30vh;
+        left: 25vw;
     }
     
     .ca-banco-info{
-        font-family: 'Roboto Slab';
-        color: #FAC64B;
+        display: none;
         font-size: 2rem;
-        font-weight: normal;
-        text-align: center;
-        background-color: #310D31;
-        padding: 5vw;
+        margin-left: 15vw;
+        text-align: left;
+        padding: 3vh 2vw 3vh 2vw;
     }
     
     .slick-contas .slick-prev:before, .slick-next:before{
@@ -132,7 +133,21 @@
         right: 16vw;
     }
 
-
+    /*#########  Modal  ############*/
+    .ca-modal{
+        display: block;
+        position: relative;
+        width: 8vw;
+        top: -28vh;
+        left: 44.6vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 0.8rem;
+        color: #4F084F;
+        font-family: 'Roboto Slab';
+        padding: 1.2vh 1.2vw 1.2vh 1.2vw;
+        line-height: 1.2vh;
+        text-align: center;
+    }
 
 
 }
