@@ -1,0 +1,130 @@
+#secao-arrec{
+    background-color: #4F084F;
+    position: relative;
+}
+#frases-arrec{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#frase1-arrec{
+    background-color: #310D31;
+    display: flex;
+    width: 50vw;
+    text-align: center;
+}
+#frase1-arrec h1{
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    line-height: initial;
+    padding: 1vh 0 1vh 5vw;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: left;
+}
+#botaomodal-arrec{
+    width: 30vw;
+    height: 15vh;
+    border: none;
+    background-color: #310D31;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.7rem;
+    margin: 4vh 5vw 0 0;
+}
+#modal-arrec{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 20vh;
+    width: 50vw;
+    margin: 20vh 0 0 25vw;
+    text-align: center;
+    overflow: auto;
+    background-color: #310D31;
+}
+#modalconteudo-arrec{
+    margin: 0 auto;
+    padding: 8px;
+}
+#modalconteudo-arrec p{
+    margin: 1vh 0;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.7rem;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#titulo-arrec{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 5vh 0 1vh 0;
+}
+#titulo-arrec h1{
+    width: 100%;
+    color: #FAC64B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.carrossel-arrec .slick-slide img{
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 175px;
+}
+.carrossel-arrec .slick-dots{
+    position: relative;
+    bottom: 1vh;
+}
+.carrossel-arrec .slick-dots li.slick-active button:before{
+    border:1px solid #FAC64B;
+    width: 60%;
+    height: 60%;
+    margin: 2px auto;
+    color: transparent;
+}
+.carrossel-arrec .slick-slide{
+    opacity: 0.7;
+}
+.carrossel-arrec .slick-active{
+    opacity: 1;
+}
+#nomelocal-arrec{
+    display: flex;
+    position: absolute;
+    background-color: #310D31;
+    opacity: 0.7;
+    width: 200px;
+    margin: 0 0 0 35px;
+    top: 20px;
+}
+#nomelocal-arrec h2{
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #FAC64B;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+#endlocal-arrec{
+    display: flex;
+    width: 200px;
+    margin: -45px 0 0 35px;
+    position: absolute;
+    text-align: center;
+    background-color: #310D31;
+    opacity: 0.7;
+}
+#endlocal-arrec h2{
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #FAC64B;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+}
