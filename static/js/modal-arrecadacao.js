@@ -1,5 +1,5 @@
-var modal = document.getElementById('modal-arrec');
-var botaoModal = document.getElementById('botaomodal-arrec');
+const modal = document.getElementById('modal-arrec');
+const botaoModal = document.getElementById('botaomodal-arrec');
 
 botaoModal.addEventListener('click', openModal);
 window.addEventListener('click', clickOutside);
