@@ -1,20 +1,13 @@
 @media only screen and (min-width: 600px){
     .carrossel-arrec .slick-dots{
-        bottom: 3vh;
+        bottom: 1vh;
     }
     .carrossel-arrec .slick-slide img{
         margin: auto;
-        width: 45vw;
+        width: 50vw;
+        height: 240px;
         padding: 1vh 50px;
         border-radius: 25%;
-    }
-    .carrossel-arrec .slick-prev{
-        left: 22vw;
-        top: 43%;
-    }
-    .carrossel-arrec .slick-next{
-        right: 24vw;
-        top: 43%;
     }
     .carrossel-arrec .slick-dots li button:before{
         color: white;
@@ -49,16 +42,16 @@
         font-size: 1rem;
     }
     #nomelocal-arrec{
-        width: 35vw;
-        margin: 0px 0 0 12vw;
-        top: 3vh;
+        width: 300px;
+        margin: 0px 0 0 92px;
+        top: 30px;
     }
     #endlocal-arrec h2{
         font-size: 1rem;
     }
     #endlocal-arrec{
-        width: 35vw;
-        margin: -6vh 0 0 12vw;
+        width: 300px;
+        margin: -60px 0 0 92px;
     }
     #modal-arrec{
         height: 27vh;
@@ -72,6 +65,9 @@
 
 }
 @media only screen and (min-width: 900px){
+    .carrossel-arrec .slick-slide img{
+        height: 340px;
+    }
     #frase1-arrec h1{
         font-size: 2rem;
     }
@@ -83,9 +79,11 @@
     }
     #nomelocal-arrec{
         margin: 0px 0 0 10vw;
+        width: 410px;
     }
     #endlocal-arrec{
         margin: -5vh 0 0 10vw;
+        width: 410px;
     }
     #modal-arrec p{
         font-size: 1rem;
@@ -94,11 +92,20 @@
 
 @media only screen and (min-width: 1200px){
     .carrossel-arrec .slick-dots{
-        bottom: 5vh;
+        bottom: 1vh;
     }
     .carrossel-arrec .slick-slide img{
         padding: 1vh 60px;
         border-radius: 15%;
+        height: 400px;
+    }
+    .carrossel-arrec .slick-prev{
+        left: 19vw;
+        top: 43%;
+    }
+    .carrossel-arrec .slick-next{
+        right: 21vw;
+        top: 43%;
     }
     #frase1-arrec{
         margin: 4vh 0 2vh 0;
@@ -116,12 +123,12 @@
         font-size: 2.5rem;
     }
     #nomelocal-arrec{
-        width: 35vw;
+        width: 39vw;
         margin: 0px 0 0 10vw;
         top: 6vh;
     }
     #endlocal-arrec{
-        width: 35vw;
+        width: 39vw;
         margin: -10vh 0 0 10vw;
     }
     #modal-arrec{

@@ -1,36 +1,36 @@
 {% load static %} 
 <section id="secao-arrec">
-    <div id="frases-arrec">
-        <div id="frase1-arrec">
-            <h1>Agora doar ficou mais fácil!</h1>
-        </div>
-        <button id="botaomodal-arrec">*Saiba mais sobre os remédios e rações que precisamos!</button>
-        <div id="modal-arrec">
-            <div id="modalconteudo-arrec">
-                <p>Medicações: PromumDog, Simparic, Hemolitan, Glicopan, Doxi,
-                    Metacell, Ifervac, Ivermectina, Vitaminas A, E e C.
-                </p>
-                <p>
-                    Rações: Qualquer marca Super premium como por exemplo Golden,
-                    Gran Plus, Magnus, Pedigree, Bomguy, Faro.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div id="titulo-arrec">
-        <h1>Confira nossos pontos de arrecadação!</h1>
-    </div>
-    <div class="carrossel-arrec">
-        <div id="carrosseis-arrec">
-            <img src="{% static 'images/cachorro1.jpg' %}" alt="">
-            <div id="nomelocal-arrec">
-                <h2>Local tal</h2>
-            </div>
-            <div id="endlocal-arrec">
-                <h2>Endereço tal</h2>
-            </div>
-        </div>
-        <div id="carrosseis-arrec"><img src="{% static 'images/cachorro2.png' %}" alt=""></div>
-        <div id="carrosseis-arrec"><img src="{% static 'images/cachorro3.png' %}" alt=""></div>
-    </div>
+	<div id="frases-arrec">
+		<div id="frase1-arrec">
+			<h1>Agora doar ficou mais fácil!</h1>
+		</div>
+		<button id="botaomodal-arrec">*Saiba mais sobre os remédios e rações que precisamos!</button>
+		<div id="modal-arrec">
+			<div id="modalconteudo-arrec">
+				<p>Medicações: PromumDog, Simparic, Hemolitan, Glicopan, Doxi,
+					Metacell, Ifervac, Ivermectina, Vitaminas A, E e C.
+				</p>
+				<p>
+					Rações: Qualquer marca Super premium como por exemplo Golden,
+					Gran Plus, Magnus, Pedigree, Bomguy, Faro.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="titulo-arrec">
+		<h1>Confira nossos pontos de arrecadação!</h1>
+	</div>
+	<div class="carrossel-arrec">
+		{% for doa in doacao %}
+		<div id="carrosseis-arrec">
+			<img src="{{ doa.foto.url }}" alt="">
+			<div id="nomelocal-arrec">
+				<h2>{{ doa.local }}</h2>
+			</div>
+			<div id="endlocal-arrec">
+				<h2>{{ doa.endereco }}</h2>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 </section>
