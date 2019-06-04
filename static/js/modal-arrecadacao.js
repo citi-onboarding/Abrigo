@@ -6,13 +6,10 @@ window.addEventListener('click', clickOutside);
 
 function openModal(){
     modal.style.display = 'block';
-    console.log(123)
 }
 
 function clickOutside(e){
-    console.log(456)
-    if(e.target == modal){
-        console.log(789)
+    if(e.target != modal && e.target != botaoModal){
         modal.style.display = 'none';
     }
 }

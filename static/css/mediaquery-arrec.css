@@ -49,16 +49,16 @@
         font-size: 1rem;
     }
     #nomelocal-arrec{
-        width: 40vw;
-        margin: 0px 0 0 9vw;
+        width: 35vw;
+        margin: 0px 0 0 12vw;
         top: 3vh;
     }
     #endlocal-arrec h2{
         font-size: 1rem;
     }
     #endlocal-arrec{
-        width: 40vw;
-        margin: -6vh 0 0 9vw;
+        width: 35vw;
+        margin: -6vh 0 0 12vw;
     }
     #modal-arrec{
         height: 27vh;
@@ -82,10 +82,10 @@
         font-size: 1rem;
     }
     #nomelocal-arrec{
-        margin: 0px 0 0 7.5vw;
+        margin: 0px 0 0 10vw;
     }
     #endlocal-arrec{
-        margin: -5vh 0 0 7.5vw;
+        margin: -5vh 0 0 10vw;
     }
     #modal-arrec p{
         font-size: 1rem;
@@ -116,13 +116,13 @@
         font-size: 2.5rem;
     }
     #nomelocal-arrec{
-        width: 42vw;
-        margin: 0px 0 0 6vw;
+        width: 35vw;
+        margin: 0px 0 0 10vw;
         top: 6vh;
     }
     #endlocal-arrec{
-        width: 42vw;
-        margin: -10vh 0 0 6vw;
+        width: 35vw;
+        margin: -10vh 0 0 10vw;
     }
     #modal-arrec{
         height: 40vh;
