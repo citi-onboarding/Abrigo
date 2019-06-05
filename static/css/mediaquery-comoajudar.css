@@ -105,7 +105,6 @@
     }
     
     .slick-infos{
-        display: none;
         position: fixed;
         z-index: 1;
         top: 30vh;
@@ -113,6 +112,7 @@
     }
     
     .ca-banco-info{
+        display: none;
         font-size: 2rem;
         margin-left: 15vw;
         text-align: left;
