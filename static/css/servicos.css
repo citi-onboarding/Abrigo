@@ -5,6 +5,11 @@
     height: 50vh;
 }
 
+.serv-cachorro img{
+    width: 30px;
+    height: 30px;
+}
+
 .serv-card{
     margin-top: 1vh;
     display: flex;
