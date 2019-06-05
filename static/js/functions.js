@@ -1,7 +1,12 @@
+let x = document.querySelector('.menu');
 function showMenu() {
-    let x = document.querySelector('.menu');
     x.classList.toggle('change');
 }
+
+function closeMenu(){
+    x.classList.toggle('change');
+}
+let menuChoice = document.querySelector('.itens-menu')
 
 
 let caModal = document.querySelector('.ca-banco-info');
@@ -20,7 +25,6 @@ caBtn.onclick = function(){
 }
 
 window.addEventListener("click", function(event){
-    console.log(event.target);
     if(event.target != caModal && event.target != caBtn && event.target != caBtnText && screen.width>1024){
         caModal.style.display = "none";
     }

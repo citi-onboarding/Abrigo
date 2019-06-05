@@ -3,6 +3,10 @@ body{
 }
 
 .container{
+    background-color: white;
+    top: 0;
+    position: fixed;
+    z-index: 999;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -109,6 +113,7 @@ body{
     }
     .container{
         justify-content: flex-start;
+        position: static;
     }
     .cut{
         display: none;
