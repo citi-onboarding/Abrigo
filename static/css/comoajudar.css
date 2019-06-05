@@ -1,0 +1,124 @@
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+
+@font-face{
+    font-family: Fonte;
+    src: url('../fontes/JustAnotherHand-Regular.ttf');
+}
+
+.como-ajudar{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: #4F084F;
+}
+.ca-foto1{
+    position: relative;
+    width: 80vw;
+    margin: -1vh 10vw 0 10vw;
+}
+
+.ca-foto1 img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.ca-foto2{
+    display: none;
+}
+
+.ca-titulo{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    top: 20vh;
+    padding: 1vh 0 1vh 0;
+}
+
+.ca-titulo h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fonte';
+    font-weight: normal;
+    color: #4F084F;
+}
+
+.ca-texto{
+    margin: 0 15vw 0 15vw;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FAC64B;
+    font-family: 'Roboto Slab';
+}
+
+.ca-carrosseis{
+    position: relative;
+    bottom: 8vh;
+}
+
+.ca-line{
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    height: 2px;
+    background-color: #FAC64B;
+}
+
+.ca-modal{
+    display: none;
+}
+
+
+
+.slick-contas{
+    width: 50%;
+    left: 25vw;
+    top: 10vh;
+}
+
+.ca-bancos img{
+    width: 100%;
+    height: 80px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.slick-infos{
+    width: 35%;
+    left: 32.5vw;
+    top: 11vh;
+}
+
+.ca-banco-info{
+    font-family: 'Roboto Slab';
+    color: #FAC64B;
+    font-size: 0.7rem;
+    font-weight: normal;
+    text-align: center;
+    background-color: #310D31;
+    padding: 2vw;
+}
+
+.slick-contas .slick-prev:before{
+    position: relative;
+    z-index: 1;
+    top: 6vh;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.slick-contas .slick-next:before{
+    position: relative;
+    z-index: 1;
+    top: 6vh;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.slick-contas .slick-prev:before{
+    left: 5vw;
+}
+
+.slick-contas .slick-next:before{
+    right: 8vw;
+}

@@ -1,0 +1,41 @@
+{% load static %}
+
+<section class="como-ajudar">
+    <div class="ca-banner">
+        <div class="ca-foto1">
+                <img src="{% static 'images/collaboration-community-cooperation-461049.png' %}" alt="Imagem de Maos Dadas 1">
+        </div>
+        <div class="ca-foto2">
+            <img src="{% static 'images/collaboration-community-cooperation-461049.png' %}" alt="Imagem de Maos Dadas 2">
+        </div>
+    </div>
+    <div class="ca-titulo">
+        <h1>Como ajudar</h1>
+    </div>
+    <div class="ca-texto">
+        <p>Contribua com qualquer valor a nossa causa</p>
+    </div>
+    <div class="ca-carrosseis">
+        <div class="ca-line1"></div>
+        <div class="ca-line2"></div>
+        <div class="slick-contas">
+        {% for conta in contas %}
+        <div class="ca-bancos">
+            <img src="{{ conta.foto.url }}" alt="Foto do Banco">
+        </div>
+        {% endfor %}
+        </div>
+        <div class="slick-infos">
+        {% for conta in contas %}
+            <div class="ca-banco-info">
+                <p>{{ conta.info }}</p>
+            </div>
+        {% endfor %}
+        </div>
+        <div class="ca-modal">
+            <h2>Veja aqui nossos dados bancários para doações!</h2>
+        </div>
+    </div>
+    
+    <div class="ca-line"></div>
+</section>
