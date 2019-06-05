@@ -119,17 +119,17 @@
         padding: 3vh 2vw 3vh 2vw;
     }
     
-    .slick-contas .slick-prev:before, .slick-next:before{
+    .slick-contas .slick-prev:before{
         top: 0vh;
         font-size: 3.5rem;
         opacity: 1;
-    }
-    
-    .slick-contas .slick-prev:before{
         left: 13vw;
     }
     
     .slick-contas .slick-next:before{
+        top: 0vh;
+        font-size: 3.5rem;
+        opacity: 1;
         right: 16vw;
     }
 
