@@ -30,6 +30,7 @@ body{
 }
 
 .menu-text{
+    text-decoration: none;
     margin-top: 3vh;
     margin-bottom: 3vh;
     background-color: #310D31;
@@ -39,6 +40,11 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Roboto Slab', serif;
+    color: #FAC64B;
+}
+
+.menu-text a{
+    text-decoration: none;
     color: #FAC64B;
 }
 
