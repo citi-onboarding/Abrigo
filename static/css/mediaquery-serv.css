@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1024px){
+    .servicos{
+        justify-content: center;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .serv-card{
+        margin-top: 5vh;
+        width: 100vw;
+        align-items:  center;
+        flex-direction: row;
+    }
+
+    .serv-divisao{
+        padding-bottom: 5vh;
+    }
+    .serv-linha-divisora{
+        height: 10px;
+    }
+
+    .serv-cachorro img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-img{
+        margin-left: 5vw;
+    }
+
+    .card-img img{
+        width: 25vw;
+        height: 20vh;
+        border-radius: 0;
+    }
+
+    .card-texto{
+        position: relative;
+        right: 20vw;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        height: 15vh;
+        font-size: 1.2rem;
+        line-height: 4vh;
+        text-align: left;
+    }
+
+    .card-texto p{
+        font-weight: normal;
+        padding: 2vh 0 2vh 0;
+    }
+
+    .card-titulo{
+        width: 30vw;
+        top: 7.8vh;
+        right: 25.2vw;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 1.5rem;
+        color: #4F084F;
+        text-align: center;
+    }
+
+    .card-titulo h2{
+        font-weight: 400;
+        width: 25vw;
+    }
+}

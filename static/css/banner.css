@@ -87,7 +87,11 @@
 .carrossel-banner .slick-dots{
     bottom: 2vh;
 }
-.carrossel-banner .slick-prev:before, .slick-next:before {
+.carrossel-banner .slick-prev:before{
+font-size: 3rem;
+}
+
+.carrossel-banner .slick-next:before{
     font-size: 3rem;
 }
 .carrossel-banner .slick-prev{
