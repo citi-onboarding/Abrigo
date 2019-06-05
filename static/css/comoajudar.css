@@ -64,6 +64,10 @@
     background-color: #FAC64B;
 }
 
+.ca-modal{
+    display: none;
+}
+
 
 
 .slick-contas{
@@ -95,8 +99,17 @@
     padding: 2vw;
 }
 
-.slick-contas .slick-prev:before, .slick-next:before{
+.slick-contas .slick-prev:before{
     position: relative;
+    z-index: 1;
+    top: 6vh;
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.slick-contas .slick-next:before{
+    position: relative;
+    z-index: 1;
     top: 6vh;
     font-size: 2rem;
     opacity: 0.9;

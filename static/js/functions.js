@@ -7,7 +7,9 @@ function showMenu() {
 let caModal = document.querySelector('.ca-banco-info');
 let caBtn = document.querySelector('.ca-modal');
 let caBtnText = document.querySelector('.ca-modal h2');
-caModal.style.display = "none";
+if(screen.width>1024){
+    caModal.style.display = "none";
+}
 
 caBtnText.onclick = function(){
     caModal.style.display = "block";
