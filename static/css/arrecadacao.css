@@ -87,6 +87,14 @@
     height: 60%;
     margin: 2px auto;
     color: transparent;
+    border-radius: 100%;
+}
+.carrossel-arrec .slick-dots li button:before{
+    color: #FAC64B;
+    font-size: 1rem;
+    opacity: 1;
+    width: auto;
+    height: auto;
 }
 .carrossel-arrec .slick-slide{
     opacity: 0.7;
