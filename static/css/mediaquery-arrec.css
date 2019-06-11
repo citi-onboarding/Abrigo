@@ -94,6 +94,9 @@
     .carrossel-arrec .slick-dots{
         bottom: 1vh;
     }
+    .carrossel-arrec .slick-initialized .slick-slider .slick-dotted {
+        margin-bottom: 0;
+    }
     .carrossel-arrec .slick-slide img{
         padding: 1vh 60px;
         border-radius: 15%;
@@ -102,6 +105,14 @@
     .carrossel-arrec .slick-prev{
         left: 19vw;
         top: 43%;
+        z-index: 1;
+    }
+    .carrossel-arrec .slick-prev:before{
+        font-size: 3rem;
+    }
+        
+    .carrossel-arrec .slick-next:before{
+        font-size: 3rem;
     }
     .carrossel-arrec .slick-next{
         right: 21vw;

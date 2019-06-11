@@ -67,6 +67,9 @@
         margin: -20vh 50vw;
         width: 48.5vw;
     }
+    .carrossel-eventos .slick-track{
+        width: auto;
+    }
     .carrossel-eventos .slick-slide{
         opacity: 1;
     }
@@ -78,10 +81,12 @@
     }
     .carrossel-eventos .slick-prev{
         left: 25vw;
+        z-index: 1;
     }
     .carrossel-eventos .slick-prev:before,
     .carrossel-eventos .slick-next:before{
         color: #361131;
+        font-size: 3rem;
     }
     #linhadiv-eventos{
         height: 1.5vh;
